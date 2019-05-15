@@ -1,10 +1,15 @@
 # Scanning
 
 [Port Scanning](#cidr-port-scan)
+
 [DNS Enumeration](#dns-enumeration)
+
 [HTTP Enumeration](#http-enumeration)
+
 [POP3](#pop3)
+
 [MySQL](#mysql)
+
 [SMB](#smb)
 
 ## CIDR Port Scan
