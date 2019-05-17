@@ -60,6 +60,11 @@ nmap --script http-enum --script-args http-enum.displayall -p80 <ip>
 dirbuster -l /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u <url>
 ```
 
+**nikto:**
+```
+nikto -o report.html -Format htm -port 80 -h <ip>
+```
+
 ## POP3
 
 **info via nmap:**
