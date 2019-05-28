@@ -105,3 +105,13 @@ nmap --script smb-security-mode,smb2-security-mode -p139,445 <ip>
 ```
 nmap --script smb-enum-users -p139,445 <ip>
 ```
+
+**enumerate shares via nmap:**
+```
+nmap --script smb-enum-shares -p139,445 <ip>
+```
+
+**enumerate all via enum4linux:**
+```
+enum4linux -a <ip>
+```
